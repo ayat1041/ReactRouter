@@ -25,6 +25,7 @@ export default function Root() {
           <ul>
             <li>
               <Link to={`/contacts/1`}>Your Name</Link>
+              {/* You can open the network tab in the browser devtools to see that it's not requesting documents anymore. */}
             </li>
             <li>
               <Link to={`/contacts/2`}>Your Friend</Link>
